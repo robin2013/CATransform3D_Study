@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000F3E0917A0F6D00022873A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000F3E0817A0F6D00022873A /* UIKit.framework */; };
+		000F3E0B17A0F6D00022873A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000F3E0A17A0F6D00022873A /* Foundation.framework */; };
+		000F3E0D17A0F6D00022873A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000F3E0C17A0F6D00022873A /* CoreGraphics.framework */; };
+		000F3E1317A0F6D00022873A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 000F3E1117A0F6D00022873A /* InfoPlist.strings */; };
+		000F3E1517A0F6D00022873A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 000F3E1417A0F6D00022873A /* main.m */; };
+		000F3E1917A0F6D00022873A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 000F3E1817A0F6D00022873A /* AppDelegate.m */; };
+		000F3E1B17A0F6D00022873A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 000F3E1A17A0F6D00022873A /* Default.png */; };
+		000F3E1D17A0F6D00022873A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 000F3E1C17A0F6D00022873A /* Default@2x.png */; };
+		000F3E1F17A0F6D00022873A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 000F3E1E17A0F6D00022873A /* Default-568h@2x.png */; };
+		000F3E2217A0F6D00022873A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000F3E2117A0F6D00022873A /* ViewController.m */; };
+		000F3E2517A0F6D00022873A /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 000F3E2317A0F6D00022873A /* ViewController_iPhone.xib */; };
+		000F3E2817A0F6D00022873A /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 000F3E2617A0F6D00022873A /* ViewController_iPad.xib */; };
+		000F3E2F17A0FB610022873A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000F3E2E17A0FB610022873A /* QuartzCore.framework */; };
+		000F3E3117A0FC0F0022873A /* guide@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 000F3E3017A0FC0F0022873A /* guide@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		000F3E0517A0F6D00022873A /* CATransform3D_Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CATransform3D_Study.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000F3E0817A0F6D00022873A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		000F3E0A17A0F6D00022873A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		000F3E0C17A0F6D00022873A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		000F3E1017A0F6D00022873A /* CATransform3D_Study-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CATransform3D_Study-Info.plist"; sourceTree = "<group>"; };
+		000F3E1217A0F6D00022873A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		000F3E1417A0F6D00022873A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		000F3E1617A0F6D00022873A /* CATransform3D_Study-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CATransform3D_Study-Prefix.pch"; sourceTree = "<group>"; };
+		000F3E1717A0F6D00022873A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		000F3E1817A0F6D00022873A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		000F3E1A17A0F6D00022873A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		000F3E1C17A0F6D00022873A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		000F3E1E17A0F6D00022873A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		000F3E2017A0F6D00022873A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		000F3E2117A0F6D00022873A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		000F3E2417A0F6D00022873A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		000F3E2717A0F6D00022873A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		000F3E2E17A0FB610022873A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		000F3E3017A0FC0F0022873A /* guide@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guide@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000F3E0217A0F6D00022873A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000F3E2F17A0FB610022873A /* QuartzCore.framework in Frameworks */,
+				000F3E0917A0F6D00022873A /* UIKit.framework in Frameworks */,
+				000F3E0B17A0F6D00022873A /* Foundation.framework in Frameworks */,
+				000F3E0D17A0F6D00022873A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000F3DFC17A0F6D00022873A = {
+			isa = PBXGroup;
+			children = (
+				000F3E0E17A0F6D00022873A /* CATransform3D_Study */,
+				000F3E0717A0F6D00022873A /* Frameworks */,
+				000F3E0617A0F6D00022873A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000F3E0617A0F6D00022873A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000F3E0517A0F6D00022873A /* CATransform3D_Study.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		000F3E0717A0F6D00022873A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				000F3E2E17A0FB610022873A /* QuartzCore.framework */,
+				000F3E0817A0F6D00022873A /* UIKit.framework */,
+				000F3E0A17A0F6D00022873A /* Foundation.framework */,
+				000F3E0C17A0F6D00022873A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		000F3E0E17A0F6D00022873A /* CATransform3D_Study */ = {
+			isa = PBXGroup;
+			children = (
+				000F3E3017A0FC0F0022873A /* guide@2x.png */,
+				000F3E1717A0F6D00022873A /* AppDelegate.h */,
+				000F3E1817A0F6D00022873A /* AppDelegate.m */,
+				000F3E2017A0F6D00022873A /* ViewController.h */,
+				000F3E2117A0F6D00022873A /* ViewController.m */,
+				000F3E2317A0F6D00022873A /* ViewController_iPhone.xib */,
+				000F3E2617A0F6D00022873A /* ViewController_iPad.xib */,
+				000F3E0F17A0F6D00022873A /* Supporting Files */,
+			);
+			path = CATransform3D_Study;
+			sourceTree = "<group>";
+		};
+		000F3E0F17A0F6D00022873A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				000F3E1017A0F6D00022873A /* CATransform3D_Study-Info.plist */,
+				000F3E1117A0F6D00022873A /* InfoPlist.strings */,
+				000F3E1417A0F6D00022873A /* main.m */,
+				000F3E1617A0F6D00022873A /* CATransform3D_Study-Prefix.pch */,
+				000F3E1A17A0F6D00022873A /* Default.png */,
+				000F3E1C17A0F6D00022873A /* Default@2x.png */,
+				000F3E1E17A0F6D00022873A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000F3E0417A0F6D00022873A /* CATransform3D_Study */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000F3E2B17A0F6D00022873A /* Build configuration list for PBXNativeTarget "CATransform3D_Study" */;
+			buildPhases = (
+				000F3E0117A0F6D00022873A /* Sources */,
+				000F3E0217A0F6D00022873A /* Frameworks */,
+				000F3E0317A0F6D00022873A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CATransform3D_Study;
+			productName = CATransform3D_Study;
+			productReference = 000F3E0517A0F6D00022873A /* CATransform3D_Study.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000F3DFD17A0F6D00022873A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Robin;
+			};
+			buildConfigurationList = 000F3E0017A0F6D00022873A /* Build configuration list for PBXProject "CATransform3D_Study" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 000F3DFC17A0F6D00022873A;
+			productRefGroup = 000F3E0617A0F6D00022873A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000F3E0417A0F6D00022873A /* CATransform3D_Study */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000F3E0317A0F6D00022873A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000F3E1317A0F6D00022873A /* InfoPlist.strings in Resources */,
+				000F3E1B17A0F6D00022873A /* Default.png in Resources */,
+				000F3E1D17A0F6D00022873A /* Default@2x.png in Resources */,
+				000F3E1F17A0F6D00022873A /* Default-568h@2x.png in Resources */,
+				000F3E2517A0F6D00022873A /* ViewController_iPhone.xib in Resources */,
+				000F3E2817A0F6D00022873A /* ViewController_iPad.xib in Resources */,
+				000F3E3117A0FC0F0022873A /* guide@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000F3E0117A0F6D00022873A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000F3E1517A0F6D00022873A /* main.m in Sources */,
+				000F3E1917A0F6D00022873A /* AppDelegate.m in Sources */,
+				000F3E2217A0F6D00022873A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		000F3E1117A0F6D00022873A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				000F3E1217A0F6D00022873A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		000F3E2317A0F6D00022873A /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				000F3E2417A0F6D00022873A /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		000F3E2617A0F6D00022873A /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				000F3E2717A0F6D00022873A /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		000F3E2917A0F6D00022873A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		000F3E2A17A0F6D00022873A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		000F3E2C17A0F6D00022873A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CATransform3D_Study/CATransform3D_Study-Prefix.pch";
+				INFOPLIST_FILE = "CATransform3D_Study/CATransform3D_Study-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		000F3E2D17A0F6D00022873A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CATransform3D_Study/CATransform3D_Study-Prefix.pch";
+				INFOPLIST_FILE = "CATransform3D_Study/CATransform3D_Study-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000F3E0017A0F6D00022873A /* Build configuration list for PBXProject "CATransform3D_Study" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000F3E2917A0F6D00022873A /* Debug */,
+				000F3E2A17A0F6D00022873A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000F3E2B17A0F6D00022873A /* Build configuration list for PBXNativeTarget "CATransform3D_Study" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000F3E2C17A0F6D00022873A /* Debug */,
+				000F3E2D17A0F6D00022873A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000F3DFD17A0F6D00022873A /* Project object */;
+}
